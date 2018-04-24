@@ -1,23 +1,140 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-<div class="home">
+<head>
+  <style>
+    body {
+      margin-left: 50px;
+      margin-top: 50px;
+      font-family: "Helvetica Neue Light", Arial;
+      font-size: 14px;
+      line-height: 1.5px;
+    }
 
-  <h1 class="page-heading">Posts</h1>
+    .blurb1 {
+      background-color: #c7f1c7;
+      max-width: 240px;
+      margin-top: 35px;
+      margin-left: 27.5px;
+      padding: 15px;
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    }
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    .blurb2 {
+      background-color: #d4f3fc;
+      max-width: 240px;
+      margin-top: 50px;
+      margin-left: 60px;
+      padding: 15px;
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    }
 
-</div>
+    .blurb3 {
+      background-color: #a5bdf2;
+      max-width: 240px;
+      margin-top: 50px;
+      margin-left: 15px;
+      padding: 15px;
+
+    }
+
+    .blurb4 {
+      background-color: #ded8fa;
+      max-width: 240px;
+      margin-top: 50px;
+      margin-left: 60px;
+      padding: 15px;
+    }
+
+    .projects {
+      margin-left: 80px;
+      margin-top: 35px;
+      max-width: 200px;
+    }
+
+    a:hover {
+      color: #dfedff;
+    }
+
+    a:link {
+      color: #000000;
+    }
+
+    .links {
+      margin-left: 80px;
+      margin-top: 35px;
+      max-width: 200px;
+    }
+
+    a:visited {
+      color: #000000;
+    }
+
+  </style>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <div class = "col-md-4">
+    <h1 style = "margin-left: 30px; margin-top: 30px;">sharvani jha</h1>
+
+    <div class = "blurb1">
+      <p><b>a quick intro: </b>ucla '21 computer science major. artist and space enthusiast.</p>
+    </div>
+
+    <div class = "blurb2">
+        <p><b>programming languages: </b>c++, c, java, javascript, python, html / css</p>
+      </div>
+
+    <div class = "blurb3">
+      <p><b>other skils: </b>photoshop, great music taste, microsoft office, writing, teaching, english, hindi, french
+    </div>
+
+    <div class = "blurb4">
+      <p><b>interests include: </b>astrophysics, artificial intelligence, bioinformatics, data science, cryptography</p>
+    </div>
+
+      <!-- end left column -->
+    </div>
+    <div class = "col-md-4">
+          <h1 style = "margin-left: 80px; margin-top: 30px;">projects</h1>
+          <div class = "projects">
+            <b>cs 32</b><br>
+            <ul>
+              <li><a href = "http://shadowhunters.wikia.com/wiki/Isabelle_Lightwood"><u>nachenblaster</u></a></li>
+              <li><a href = "http://shadowhunters.wikia.com/wiki/Alec_Lightwood"><u>decrypter</u></a></li>
+            </ul>
+            <b>cs 31</b><br>
+            <ul>
+              <li><a href = "http://shadowhunterstv.wikia.com/wiki/Clary_Fairchild"><u>flatulans</u></a></li>
+            </ul>
+            <br>
+            <b>miscellaneous</b><br>
+            <ul>
+              <li><a href = "http://www.dorkly.com/post/75222/amazing-fan-art-versions-of-every-gen-1-pokemon"><u>galaxy orientation</u></a></li>
+              <li><a href = "https://www.modcloth.com/shop/accessories/genetic-aesthetic-dna-earrings/158280.html"><u>dna analysis</u></a></li>
+            </ul>
+          </div>
+    </div>
+
+    <div class = "col-md-4">
+      <h1 style = "margin-left: 80px; margin-top: 30px;">links</h1>
+      <div class = "links">
+        <ul>
+          <li><a href = "https://github.com/sharvanijha"><u>github</u></a></li>
+          <li><a href = "http://linkedin.com/in/SharvanijJha"><u>linkedin</u></a></li>
+          <li><a href = "http://sharvanijha.wordpress.com"><u>wordpress</u></a></li>
+          <li><a href = "vsco.co/sharvanijha"><u>vsco</u></a></li>
+        </ul>
+      </div>
+    </div>
+</body>
+
+</html>
