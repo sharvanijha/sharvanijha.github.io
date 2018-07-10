@@ -1,0 +1,52 @@
+
+.title {
+  font-size: 50px;
+  font-family: Times;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.highlight {
+  background-color: #BCF7D5;
+  /*position: absolute;*/
+}
+
+.box {
+  width: 275px;
+  height: 180px;
+  border: 2px;
+  border-style: dashed;
+  margin-top: 60px;
+  /*margin-left: 20px;*/
+  padding: 15px;
+  letter-spacing: 2px;
+}
+
+.boxtitle {
+  font-family: 'Rozha One', Arial;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.boxbody {
+  margin-top: 10px;
+  font-family: 'Rokkitt', Arial;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.lightgreen {
+  color: #A1D1B5;
+}
+
+.langstrength {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.link {
+  color: black;
+  text-decoration: underline;
+}
