@@ -1,7 +1,7 @@
 
 .title {
   font-size: 50px;
-  font-family: Times;
+  font-family: 'Arvo', Times;
   text-align: center;
   margin-top: 50px;
   margin-left: auto;
@@ -9,7 +9,7 @@
 }
 
 .highlight {
-  background-color: #BCF7D5;
+  background-color: #FFCECC;
   /*position: absolute;*/
 }
 
@@ -28,6 +28,8 @@
   font-family: 'Rozha One', Arial;
   font-size: 20px;
   letter-spacing: 2px;
+  text-align: center;
+  margin-top: 25%;
 }
 
 .boxbody {
@@ -50,3 +52,35 @@
   color: black;
   text-decoration: underline;
 }
+
+.overlay {
+  position: relative;
+  border-style: dashed;
+  border: 2px;
+  padding: 15px;
+  letter-spacing: 2px;
+  top: -105.5px;
+  bottom: 0;
+  left: -17px;
+  right: 0;
+  width: 275px;
+  height: 180px;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.box:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
