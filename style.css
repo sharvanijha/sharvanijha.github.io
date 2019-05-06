@@ -1,86 +1,63 @@
 
+#grad {
+  background-image: linear-gradient(#3811B3, #02106D);
+  background-size: 120%;
+}
+
 .title {
-  font-size: 50px;
-  font-family: 'Arvo', Times;
-  text-align: center;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.highlight {
-  background-color: #E9E3FB;
-  /*position: absolute;*/
-}
-
-.box {
-  width: 275px;
-  height: 180px;
-  border: 2px;
-  border-style: dashed;
-  margin-top: 60px;
-  /*margin-left: 20px;*/
-  padding: 15px;
-  letter-spacing: 2px;
-}
-
-.boxtitle {
-  font-family: 'Rozha One', Arial;
-  font-size: 20px;
-  letter-spacing: 2px;
-  text-align: center;
-  margin-top: 25%;
-}
-
-.boxbody {
-  margin-top: 10px;
-  font-family: 'Rokkitt', Arial;
-  font-size: 12px;
-  letter-spacing: 2px;
-}
-
-.lightgreen {
-  color: #A1D1B5;
-}
-
-.langstrength {
-  text-align: justify;
-  text-justify: inter-word;
-}
-
+    font-size: 35px;
+    font-family: 'Karla', Times;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 50px;
+    display: inline-block;
+    color: white;
+  }
+  
 .link {
-  color: black;
-  text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Karla', Times;
+    text-align: right;
+    margin-left: 550px;
+    display: inline-block;
+    /*text-decoration: underline;*/
 }
 
-.overlay {
-  position: relative;
-  border-style: dashed;
-  border: 2px;
-  padding: 15px;
-  letter-spacing: 2px;
-  top: -105.5px;
-  bottom: 0;
-  left: -17px;
-  right: 0;
-  width: 275px;
-  height: 180px;
-  opacity: 0;
-  transition: .5s ease;
-}
-
-.box:hover .overlay {
-  opacity: 1;
-}
-
-.text {
+a:link {
   color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
 }
+
+a:hover {
+  color: #C8CAFF;
+  padding-block-end: 50px;
+}
+
+#topbox {
+  background-color: black;
+  height: 130px;
+}
+
+.bodycontent {
+  color: white;
+  padding-left: 50px;
+  font-family: 'Karla', sans-serif;
+  display: block;
+  width: 700px;
+  padding-bottom: 100px;
+}
+
+  .bodytitle {
+    color: white;
+    padding-top: 70px;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+  }
+
+  .bodytext {
+    color: white;
+    padding-top: 20px;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    display: block;
+  }
